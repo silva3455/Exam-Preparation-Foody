@@ -47,7 +47,7 @@ namespace Foody
 
         [Order(1)]
         [Test]
-        public void CreateFoodWithRequiredFields_ShouldReturnSuccess()
+        public void CreateFoodWithRequiredFields_ShouldReturnSuccess_SomeChangesAdded()
         {
             FoodDTO food = new FoodDTO
             {
