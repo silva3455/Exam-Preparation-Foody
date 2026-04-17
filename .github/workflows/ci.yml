@@ -1,4 +1,4 @@
-name: Solution-Task-2-Push
+name: Foody Project
 on:
   push:
    branches: ["main"]
