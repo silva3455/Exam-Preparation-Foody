@@ -68,7 +68,7 @@ namespace Foody
 
         [Order(2)]
         [Test]
-        public void EditFoodTitle_ShourReturnSuccess()
+        public void EditFoodTitle_ShourReturnSuccess_SecondNameChanged()
         {
             RestRequest request = new RestRequest($"/api/Food/Edit/{foodId}", Method.Patch);
             request.AddBody(new [] 
