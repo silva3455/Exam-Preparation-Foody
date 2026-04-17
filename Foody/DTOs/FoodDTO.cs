@@ -13,6 +13,8 @@ namespace Foody.Tests.DTOs
         public string Name { get; set; }
 
         [JsonPropertyName("description")]
+
+
         public string Description { get; set; }
 
         [JsonPropertyName("url")]
